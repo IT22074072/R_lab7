@@ -14,3 +14,8 @@ pbinom(35, 44, 0.92) #less than or equal
 #Q4
 #probability that at least 38 children are cured
 1 - pbinom(37, 44, 0.92)
+
+
+#Q5
+# probability that between 40 and 42
+pbinom(42, 44, 0.92) - pbinom(39, 44, 0.92)
