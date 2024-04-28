@@ -41,3 +41,7 @@ ppois(6, 4.5, lower.tail = FALSE)
 pexp(3, rate = 1/2)
 
 
+#Q4
+#probability that a repair time exceeds 4 hours
+pexp(4, rate=1/2, lower.tail = FALSE)
+
