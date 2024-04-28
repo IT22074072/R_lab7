@@ -1,3 +1,5 @@
+#Question 1
+
 #Q1
 #Binomial distribution
 X ~ Bin(44, 0.92)
@@ -19,3 +21,10 @@ pbinom(35, 44, 0.92) #less than or equal
 #Q5
 # probability that between 40 and 42
 pbinom(42, 44, 0.92) - pbinom(39, 44, 0.92)
+
+
+#Question 2
+
+#Q1
+#poisson
+dpois(6, 4.5)
