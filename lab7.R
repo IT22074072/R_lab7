@@ -34,14 +34,19 @@ dpois(6, 4.5)
 # probability of more than 6 babies being born
 ppois(6, 4.5, lower.tail = FALSE)
 
-
-#Q3
+#Question 2
+#Q1
 ?pexp
 # probability that a repair time takes at most 3 hours
 pexp(3, rate = 1/2)
 
 
-#Q4
+#Q2
 #probability that a repair time exceeds 4 hours
 pexp(4, rate=1/2, lower.tail = FALSE)
+
+#Q3
+#probability that a repair time takes between 2 to 4 hours
+pexp(4, rate = 1/2) - pexp(2, rate = 1/2)
+
 
