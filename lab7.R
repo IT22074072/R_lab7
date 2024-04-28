@@ -1,1 +1,3 @@
-getwd()
+#Q1
+#Binomial distribution
+
