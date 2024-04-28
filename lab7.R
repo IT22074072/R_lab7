@@ -27,4 +27,17 @@ pbinom(42, 44, 0.92) - pbinom(39, 44, 0.92)
 
 #Q1
 #poisson
+# 6 babies will be born in this hospital tomorrow?
 dpois(6, 4.5)
+
+#Q2
+# probability of more than 6 babies being born
+ppois(6, 4.5, lower.tail = FALSE)
+
+
+#Q3
+?pexp
+# probability that a repair time takes at most 3 hours
+pexp(3, rate = 1/2)
+
+
