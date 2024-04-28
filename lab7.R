@@ -50,3 +50,23 @@ pexp(4, rate=1/2, lower.tail = FALSE)
 pexp(4, rate = 1/2) - pexp(2, rate = 1/2)
 
 
+#Question 3
+#Q1
+#A hospital uses 37.9 𝐶
+#as the lowest temperature considered to be a fever. What is the 
+#probability that randomly selected person would have a fever?
+1-pnorm(37.9, 36.8,0.4)
+
+#Q2
+#a temperature between 36.4 𝐶0and 36.9 𝐶0?
+pnorm(36.9,36.8, 0.4) - pnorm(36.4,36.8, 0.4)
+
+#Q3
+#Physicians want to select a maximum temperature for requiring further medical tests. What 
+#should that temperature be, if want only 1.2% of the people to fall below it?
+qnorm(0.012, 36.8, 0.4)
+
+#Q4
+#Physicians want to select a minimum temperature for requiring further medical tests. What 
+#should that temperature be, if want only 1.0% of the people to fall above it?
+qnorm(0.99, 36.8, 0.4)
